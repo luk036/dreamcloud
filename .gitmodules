@@ -4,9 +4,18 @@
 [submodule "external/ellcpp"]
 	path = external/ellcpp
 	url = https://github.com/luk036/ellcpp.git
-[submodule "external/ckpttnpy"]
-	path = external/ckpttnpy
-	url = https://github.com/luk036/ckpttnpy.git
 [submodule "external/ckpttncpp"]
 	path = external/ckpttncpp
 	url = https://github.com/luk036/ckpttncpp.git
+[submodule "external/vtr-verilog-to-routing"]
+	path = external/vtr-verilog-to-routing
+	url = https://github.com/luk036/vtr-verilog-to-routing
+[submodule "external/ogdf"]
+	path = external/ogdf
+	url = https://github.com/luk036/ogdf
+[submodule "external/icestorm"]
+	path = external/icestorm
+	url = https://github.com/cliffordwolf/icestorm.git
+[submodule "external/nextpnr"]
+	path = external/nextpnr
+	url = https://github.com/YosysHQ/nextpnr
