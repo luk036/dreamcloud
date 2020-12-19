@@ -1,0 +1,12 @@
+[submodule "external/ellpy"]
+	path = external/ellpy
+	url = https://github.com/luk036/ellpy.git
+[submodule "external/ellcpp"]
+	path = external/ellcpp
+	url = https://github.com/luk036/ellcpp.git
+[submodule "external/ckpttnpy"]
+	path = external/ckpttnpy
+	url = https://github.com/luk036/ckpttnpy.git
+[submodule "external/ckpttncpp"]
+	path = external/ckpttncpp
+	url = https://github.com/luk036/ckpttncpp.git

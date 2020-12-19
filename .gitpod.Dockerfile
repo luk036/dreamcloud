@@ -17,9 +17,28 @@ RUN apt-get update \
   fortune \
   toilet \
   tty-clock \
+  build-essential \
+  clang \
+  bison \
+  flex \
+  gawk \
+  doctest-dev \
+  libreadline-dev \
+  libffi-dev \
+  libftdi-dev \
+  libscotchmetis-dev \
+  libeigen3-dev \
+  tcl-dev \
+  graphviz \
+  mercurial \
+  xdot \
+  pkg-config \
+  qt5-default \
   gtkwave \
   yosys \
+  iverilog \
   berkeley-abc \
+  arachne-pnr \
   fpga-icestorm \
   wget
 
@@ -43,11 +62,23 @@ RUN /opt/conda/bin/conda install -y \
     ninja
 
 RUN /opt/conda/bin/conda install -y -c conda-forge \
+    boost \
+    fmt \
+    spdlog \
+    benchmark \
+    openblas \
+    spdlog \
+    xtensor-fftw \
+    xtensor-blas \
+    xtensor \
     cppcheck
 
 RUN /opt/conda/bin/pip install \
+    jupyter \
     pyfda \
-    myhdl
+    cocotb \
+    myhdl \
+    networkx
 
 RUN chown -R gitpod:gitpod /opt/conda \
     && chmod -R 777 /opt/conda \
