@@ -23,6 +23,7 @@ RUN apt-get update \
   flex \
   gawk \
   doctest-dev \
+  libboost-all-dev \
   libreadline-dev \
   libffi-dev \
   libftdi-dev \
@@ -40,6 +41,7 @@ RUN apt-get update \
   berkeley-abc \
   arachne-pnr \
   fpga-icestorm \
+  verilator \
   wget
 
 RUN mkdir -p /workspace/data \
@@ -62,7 +64,6 @@ RUN /opt/conda/bin/conda install -y \
     ninja
 
 RUN /opt/conda/bin/conda install -y -c conda-forge \
-    boost \
     fmt \
     spdlog \
     benchmark \
