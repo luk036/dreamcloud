@@ -19,3 +19,12 @@
 [submodule "external/nextpnr"]
 	path = external/nextpnr
 	url = https://github.com/YosysHQ/nextpnr
+[submodule "external/ellalgo-py"]
+	path = external/ellalgo-py
+	url = https://github.com/luk036/ellalgo-py
+[submodule "external/ellalgo-cpp"]
+	path = external/ellalgo-cpp
+	url = https://github.com/luk036/ellalgo-cpp
+[submodule "external/openlane"]
+	path = external/openlane
+	url = https://github.com/efabless/openlane.git
